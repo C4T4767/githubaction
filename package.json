@@ -1,10 +1,12 @@
 {
   "name": "reactpractice2",
   "version": "0.1.0",
+  "homepage": "https://github.com/C4T4767/githubaction",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.20.5",
     "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
@@ -14,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
