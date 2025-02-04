@@ -1,7 +1,7 @@
 {
   "name": "reactpractice2",
   "version": "0.1.0",
-  "homepage": "https://github.com/C4T4767/githubaction",
+  "homepage": "https://C4T4767.github.io/githubaction",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.20.5",
