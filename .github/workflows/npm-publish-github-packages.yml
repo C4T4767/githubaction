@@ -28,8 +28,3 @@ jobs:
 
       - name: Build the project
         run: CI=false npm run build
-
-      - name: Deploy to GitHub Pages
-        run: CI=false npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
