@@ -13,7 +13,7 @@ jobs:
       - name: Set Git user
         run: |
           git config --global user.email "taesun4767@gmail.com"
-          git config --global user.name "c4t4767"
+          git config --global user.name "C4T4767"
 
       - name: Checkout the repository
         uses: actions/checkout@v4
